@@ -1,0 +1,6 @@
+.env
+data/users/
+data/products/*.txt
+data/codes/*.txt
+Member.txt
+error_log
