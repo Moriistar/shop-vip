@@ -429,12 +429,12 @@ if ( $text['2'] > 1) {
       $coin = file_get_contents("data/users/".$text['1']."/coin.txt");
       settype($coin,"integer");
       $newcoin = $coin + $text['2'];
-      save("data/users/".$text['1']."/coin.txt",$newcoin);
-      SendMessage($chat_id,"عملیات با موفقیت انجام شد");
-    SendMessage($text['1'],"تعداد ".$text['2']." الماس به شما اضافه شد");
-    else {
-      SendMessage($chat_id,"موجودی شما کافی نمیباشد");
-    }
+          save("data/users/".$text['1']."/coin.txt", $newcoin);
+    SendMessage($chat_id, "عملیات با موفقیت انجام شد");
+    SendMessage($text['1'], "تعداد " . $text['2'] . " الماس به شما اضافه شد");
+} else {
+    SendMessage($chat_id, "موجودی شما کافی نمیباشد");
+}
   }
   else {
     SendMessage($chat_id,"Syntax Error!");
