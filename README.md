@@ -22,4 +22,5 @@
 برای نصب کامل ربات، پیش‌نیازها، تنظیمات وب‌سرور (Nginx)، دریافت SSL رایگان و اتصال Webhook، فقط کافیست دستور زیر را در ترمینال سرور خود کپی و اجرا کنید:
 
 ```bash
-sudo bash <(curl -Ls [https://raw.githubusercontent.com/Moriistar/shop-vip/main/install.sh](https://raw.githubusercontent.com/Moriistar/shop-vip/main/install.sh))
+sudo bash <(curl -Ls https://raw.githubusercontent.com/Moriistar/shop-vip/main/install.sh)
+
